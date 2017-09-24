@@ -1,0 +1,126 @@
+.pl-0px {
+  padding-left: 0px;
+}
+.pr-0px {
+  padding-right: 0px;
+}
+
+.nav-color {
+  background-color: #000;
+}
+.bgcolor-b {
+  background-color: #000;
+}
+
+
+/* HEADER */
+
+
+
+#nav-logo {
+  font-weight: 400;
+  font-variant: italic;
+  font-size: 36px !important;
+  color: #fff;
+  width: 300px;
+}
+#main-logo {
+  height: 61.6px;
+  width: 53.6px;
+}
+#ul-rmargin {
+  margin-right: 10px;
+}
+
+.nav-item {
+  height: 36px;
+}
+
+/*
+Appear Nav
+ */
+#appear-nav {
+  position: fixed;
+  display: none;
+  top: 0;
+  height: 50px;
+  background-color: #000;
+  width: 100%;
+  z-index: 90;
+}
+.appear-nav-li {
+  font-size: 16px;
+}
+
+.appear-nav-left {
+  padding-left: 0px;
+  padding-right: 40px;
+}
+.appear-nav-right {
+  padding-left: 40px;
+  padding-right: 0px;
+}
+.last-nav-link {
+  margin-right: 15px;
+}
+#ul-rmargin {
+  margin-right: 10px;
+}
+
+/***
+Bootstrap Updates
+**/
+
+.nav-link {
+  text-align: right;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/*
+Footer
+ */
+
+.ftr-txt {
+  size: 14px;
+  color: #fff;
+  text-align: center;
+}
+.ftr-txt-sm {
+  font-size: 9px;
+  color: #fff;
+  text-align: center;
+}
+
+/* forms */
+#error_explanation {
+  color: red;
+}
+#error_explanation ul {
+  color: red;
+  margin: 0 0 30px 0;
+}
+.field_with_errors .form-control {
+  color: red;
+}
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.checkbox span {
+  margin-left: 20px;
+  font-weight: normal;
+}
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+/* Users index */
+.users {
+  list-style: none;
+  margin: 0;
+}
+.users li {
+  overflow: auto;
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
