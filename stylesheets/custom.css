@@ -88,6 +88,15 @@ TEAM TEAM TEAM TAM TAM TMATMASMTWAS
   width: 100%;
   height: auto;
 }
+#teambanner-div {
+  background-image: url('../images/teambanner.jpg');
+  height: 350px;
+}
+.teambanner-div {
+    position: relative;
+    height: 500px;
+    z-index: 1;
+}
 
 /*
 Footer

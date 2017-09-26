@@ -12,14 +12,15 @@
       <link rel="stylesheet" href="stylesheets/bootstrap.css">
       <link rel="stylesheet" href="stylesheets/template.css">
       <link rel="stylesheet" href="stylesheets/custom.css">
-      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+      <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+      <script src="scripts/cloudflare.js"></script>
       <script src="//use.edgefonts.net/actor;source-sans-pro;istok-web.js"></script>
       <script src="scripts/jquery-3.2.1.min.js"></script>
       <script src="scripts/bootstrap.min.js"></script>
       <script src="scripts/custom.js"></script>
    </head>
    <body>
-      <header class="nav-color">
+      <header class="teambanner-div" id="teambanner-div">
          <nav class="navbar navbar-toggleable-md navbar-inverse">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
@@ -28,11 +29,10 @@
             <div class="collapse navbar-collapse navbar-inverse" id="navbarSupportedContent">
                <ul class="navbar-nav ml-auto" id="ul-rmargin">
                   <li class="nav-item nav-color"><a href="/" class='nav-link'>home</a></li>
-                  <li class="nav-item nav-color"><a href="#technology" class='nav-link'>tech</a></li>
+                  <li class="nav-item nav-color"><a href="#technology" class='nav-link'>what we do</a></li>
+                  <li class="nav-item nav-color"><a  href="/projects" class='nav-link'>about us</a></li>
                   <li class="nav-item nav-color"><a href="/team" class= 'nav-link'>team</a></li>
-                  <li class="nav-item nav-color"><a  href="/projects" class='nav-link'>projects</a></li>
                   <li class="nav-item nav-color"><a href="/contact" class='nav-link'>contact</a></li>
-                  <li class="nav-item nav-color last-nav-link"><a href="/login" class='nav-link'>login</a></li>
                </ul>
             </div>
          </nav>
@@ -40,17 +40,14 @@
             <ul class="appear-nav-ul">
                <li class="appear-nav-li appear-nav-left"><a  id="appear-home" href="/">home</a></li>
                <li class="appear-nav-li appear-nav-left"><a id="appear-tech" href="/#technology">tech</a></li>
-               <li class="appear-nav-li appear-nav-left"><a href="/team">team</a></li>
                <li class="appear-nav-li pl-0px pr-0px"><a href="/"><img src="images/logo.png" id="appear-logo"></a></li>
                <li class="appear-nav-li appear-nav-right"><a href="/projects">projects</a></li>
+               <li class="appear-nav-li appear-nav-left"><a href="/team">team</a></li>
+
                <li class="appear-nav-li appear-nav-right"><a href="/contact">contact<a></li>
-               <li class="appear-nav-li appear-nav-right"><a href="/login">login</a></li>
             </ul>
          </div>
       </header>
-      <div class="teambanner">
-         <img class=teambanner-image" src="images/teambanner.jpg">
-      </div>
       <div class="container pt-40 pb-40">
          <div class="row">
             <div class="col-4">
@@ -66,7 +63,7 @@
          <div class="row">
             <div class="col-4">
                <h3> ANTHE GEORGE </h3>
-               <p>ANTHE GEORGE</p>
+               <p>Cheif Executive Advisor</p>
             </div>
             <div class="col-8">
                <p>Anthe is a senior member of technical staff at the Combustion Research Facility, Sandia National Laboratories and an affiliate scientist at Lawrence Berkeley National Laboratory’s Joint BioEnergy Institute (JBEI). Anthe has completed scientific research for several large multi-national companies including Total, Shell and Lockheed Martin and worked at the United Nations Headquarters NYC. Anthe’s work has led to over 40 peer reviewed publications and six patents in biomass combustion, biofuels and other related areas. She has an MEng and Ph.D. in chemical engineering from Imperial College London.</p>
@@ -119,7 +116,7 @@ BASTOS NETO</h3>
                </div>
          </div>
       </div>
-      
+
       <footer class="div-97cp bgcolor-b pb-20">
          <div class="bgcolor-b">
             <p class="ftr-txt pt-10 mboth-0"><i>Versa</i> Sorghum Development, LLC</p>
