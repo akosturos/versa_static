@@ -25,8 +25,8 @@
   width: 300px;
 }
 #main-logo {
-  height: 61.6px;
-  width: 53.6px;
+  height: 100%;
+  width: 100%;
 }
 #ul-rmargin {
   margin-right: 10px;
@@ -76,6 +76,19 @@ Bootstrap Updates
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
+/*********
+TEAM TEAM TEAM TAM TAM TMATMASMTWAS
+*/
+
+.teambanner {
+  width: 100%;
+}
+.teambanner-image {
+  width: 100%;
+  height: auto;
+}
+
 /*
 Footer
  */
