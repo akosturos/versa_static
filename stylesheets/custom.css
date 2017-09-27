@@ -1,3 +1,123 @@
+/*
+font-family: montserrat, sans-serif;
+font-family: open-sans, sans-serif;
+ */
+
+
+.header-img {
+  width: 100%;
+  height: 350px;
+}
+
+.team-header-img {
+  height: 350px;
+  position: absolute;
+  left: 0;
+}
+
+
+
+
+
+
+#sidecarNav {
+  background-color: rgb(33,33,3);
+  bottom: 0;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  line-height: 16px;
+  overflow-x: auto;
+  overflow-y: auto;
+  position: fixed;
+  right: 0px;
+  text-align: left;
+  text-size-adjust: 100%;
+  top: 0px;
+  transition-delay: 0.14s, 0.14s;
+  transition-duration: 0s, 0s;
+  transition-property: height, visibility;
+  transition-timing-function: linear, linear;
+  /*visibility: hidden;*/
+  width: 260px;
+}
+
+
+
+#li-header {
+  font-size: 18px;
+  font-family: open-sans, sans-serif;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  letter-spacing: 2px;
+  line-height: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: right;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  text-size-adjust: 100%;
+  transition-delay: 0;
+  transition-duration: 0.1;
+  white-space: nowrap;
+}
+
+#nav {
+  color: #000;
+  background-color: transparent;
+}
+
+#color-overlay {
+  background-color: rgba(0,0,0,0.9);
+  bottom: 0px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 99;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: open-sans, sans-serif;
+  color: rgba(26, 26, 26, 0.7);
+  display: block;
+  word-wrap: break-word;
+}
+p {
+  font-size: 17px;
+  line-height: 26px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+
+h3 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 26px;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 17px;
+  line-height: 26px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+#hr {
+  background-color: rgba(26, 26, 26, 0.15);
+  background-bottom-color: rgba(26, 26, 26, 0.15);
+  height: 1px;
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
 .pl-0px {
   padding-left: 0px;
 }
@@ -6,7 +126,7 @@
 }
 
 .nav-color {
-  background-color: #000;
+  background-color: #fff;
 }
 .bgcolor-b {
   background-color: #000;
@@ -30,6 +150,7 @@
 }
 #ul-rmargin {
   margin-right: 10px;
+  background-color: transparent;
 }
 
 .nav-item {
@@ -98,6 +219,10 @@ TEAM TEAM TEAM TAM TAM TMATMASMTWAS
     z-index: 1;
 }
 
+.t-pt {
+  padding-top: 30px;
+}
+
 /*
 Footer
  */
@@ -113,36 +238,80 @@ Footer
   text-align: center;
 }
 
-/* forms */
-#error_explanation {
-  color: red;
+
+
+/********
+
+Bootstrap changes
+
+
+*********/
+
+.nav-link {
+  color: #000;
 }
-#error_explanation ul {
-  color: red;
-  margin: 0 0 30px 0;
+
+.nav-item {
+
 }
-.field_with_errors .form-control {
-  color: red;
+
+
+/*
+
+MEDIA QUERIES
+
+MEDIA QUERIES
+
+MEDIA QUERIES
+
+*/
+
+#container-fix {
+  width: 94%;
+  margin-right: 3%;
+  margin-left: 3%;
 }
-.checkbox {
-  margin-top: -10px;
-  margin-bottom: 10px;
+
+
+@media screen and (max-width: 650px) {
+  p, h1, h2, h3, h4, h5, h6 {
+    font-size: 90%;
+  }
+
+
+  .t-pt {
+    padding-top: 20px;
+  }
 }
-.checkbox span {
-  margin-left: 20px;
-  font-weight: normal;
+@media screen and (max-width: 500px) {
+  p, h1, h2, h3, h4, h5, h6 {
+    font-size: 80%;
+  }
+
+
+
+  .t-pt {
+    padding-top: 0px;
+  }
 }
-#session_remember_me {
-  width: auto;
-  margin-left: 0;
-}
-/* Users index */
-.users {
-  list-style: none;
-  margin: 0;
-}
-.users li {
-  overflow: auto;
-  padding: 10px 0;
-  border-bottom: 1px solid gray;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
