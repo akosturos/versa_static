@@ -542,6 +542,11 @@ MEDIA QUERIES
     position: absolute;
     right: 10px;
   }
+  .subnav {
+    position: absolute;
+    right: 150px;
+    top: 48px;
+  }
 }
 
 @media screen and (max-width: 900px) {
