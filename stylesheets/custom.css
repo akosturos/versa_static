@@ -42,7 +42,6 @@ font-family: open-sans, sans-serif;
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-  /*visibility: visible;*/
   display: none;
 }
 
@@ -59,6 +58,7 @@ font-family: open-sans, sans-serif;
 .subnav-a:hover {
   color: rgb(33, 33, 33);
   font-weight: bold;
+  text-decoration: none;
 }
 
 #sidecarNav {
@@ -389,7 +389,7 @@ TEAM TEAM TEAM TAM TAM TMATMASMTWAS
 }
 
 .no-box {
-  padding-top: 14px;
+  padding-top: 10px;
   padding-bottom: 12px;
   font-weight: 500;
 }
@@ -531,8 +531,17 @@ MEDIA QUERIES
 
 }
 
-.test1:hover .test2{
-  color: red;
+
+@media screen and (max-width: 992px) {
+  #li-header-cb {
+    padding-left: 0;
+  }
+  .contact-box {
+    width: 140px;
+    margin-right: 0;
+    position: absolute;
+    right: 10px;
+  }
 }
 
 @media screen and (max-width: 900px) {

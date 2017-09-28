@@ -1609,12 +1609,15 @@ nav a, button {
 .pt-0 {
   padding-top: 0;
 }
-pmt-0 {
+.pmt-0 {
   padding-top: 0;
   margin-top: 0;
 }
 .pt-5 {
   padding-top: 5px;
+}
+.pt-7 {
+  padding-top: 7px;
 }
 .pt-10 {
   padding-top: 10px;
