@@ -9,19 +9,47 @@ font-family: open-sans, sans-serif;
   height: 350px;
 }
 
-.team-header-img {
-  height: 350px;
+.header {
+  height: 140px;
   position: absolute;
-  left: 0;
+  width: 100%;
+  z-index: 1000;
+  vertical-align: middle;
 }
 
 
+.subnav {
+  background-color: rgb(33, 33, 33);
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: open-sans, sans-serif;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: left;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  text-size-adjust: 100%;
+  transition-delay: 0;
+  transition-duration: 0.1;
+  white-space: nowrap;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  visibility: hidden;
+}
 
-
-
+.subnav-adiv {
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-left: 20px;
+}
 
 #sidecarNav {
-  background-color: rgb(33,33,3);
+  background-color: rgb(33,33,33);
   bottom: 0;
   box-sizing: border-box;
   display: block;
@@ -43,14 +71,32 @@ font-family: open-sans, sans-serif;
 }
 
 
-
+/* also change two below */
 #li-header {
   font-size: 18px;
   font-family: open-sans, sans-serif;
-  font-weight: 500;
-  color: #000;
+  color: #fff;
   cursor: pointer;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  line-height: 14px;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: right;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  text-size-adjust: 100%;
+  transition-delay: 0;
+  transition-duration: 0.1;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+#li-header-cb {
+  font-size: 18px;
+  font-family: open-sans, sans-serif;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 3px;
   line-height: 18px;
   padding-left: 18px;
   padding-right: 18px;
@@ -62,6 +108,26 @@ font-family: open-sans, sans-serif;
   transition-delay: 0;
   transition-duration: 0.1;
   white-space: nowrap;
+  vertical-align: middle;
+}
+#li-header-foldable {
+  font-size: 18px;
+  font-family: open-sans, sans-serif;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 3px;
+  line-height: 14px;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: right;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  text-size-adjust: 100%;
+  transition-delay: 0;
+  transition-duration: 0.1;
+  white-space: nowrap;
+  vertical-align: middle;
 }
 
 #nav {
@@ -70,10 +136,13 @@ font-family: open-sans, sans-serif;
 }
 
 #color-overlay {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, .3);
+  color: rgba(26, 26, 26, .7);
   bottom: 0px;
   display: block;
-  height: 100%;
+  height: 344px;
+  left: 0;
+  right: 0;
   width: 100%;
   position: absolute;
   top: 0px;
@@ -86,13 +155,18 @@ p, h1, h2, h3, h4, h5, h6 {
   display: block;
   word-wrap: break-word;
 }
+h1, h2 {
+  color: rgb(0, 0, 0);
+}
+h2 {
+  font-size: 39px;
+}
 p {
   font-size: 17px;
   line-height: 26px;
   text-align: justify;
   word-wrap: break-word;
 }
-
 
 h3 {
   font-size: 22px;
@@ -108,6 +182,38 @@ h6 {
   text-align: left;
   word-wrap: break-word;
 }
+
+blockquote {
+  font-family: 'garamond-pro';
+  color: rgb(26, 26, 26);
+  color: rgba(26, 26, 26, .9);
+  font-size: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 70px;
+  margin-left: 70px;
+  text-align: center;
+}
+figcaption {
+  text-align: center;
+  color: rgb(26, 26, 26);
+  color: rgba(26, 26, 26, .4);
+  font-family: 'garamond-pro';
+  font-size: 17px;
+  padding-top: 25px;
+}
+
+.large-quote {
+  color: rgb(26, 26, 26);
+  color: rgba(26, 26, 26, .3);
+  display: block;
+  font-size: 190px;
+  font-family: 'garamond-pro';
+  line-height: 70px;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
 
 #hr {
   background-color: rgba(26, 26, 26, 0.15);
@@ -138,11 +244,13 @@ h6 {
 
 
 #nav-logo {
+  margin-top: 20px;
   font-weight: 400;
   font-variant: italic;
   font-size: 36px !important;
   color: #fff;
   width: 300px;
+  height: auto;
 }
 #main-logo {
   height: 100%;
@@ -201,6 +309,38 @@ Bootstrap Updates
 /*********
 TEAM TEAM TEAM TAM TAM TMATMASMTWAS
 */
+.team-header-img {
+  width: 100%;
+  height: 100%;
+}
+.team-header-div {
+  width: 100%;
+  height: 344px;
+}
+
+.contact-box-div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact-box {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  border: 2px solid #fff;
+  font-weight: bold;
+}
+
+#li-header-cb:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.no-box {
+  padding-top: 14px;
+  padding-bottom: 12px;
+  font-weight: 500;
+}
+
 
 .teambanner {
   width: 100%;
@@ -221,6 +361,9 @@ TEAM TEAM TEAM TAM TAM TMATMASMTWAS
 
 .t-pt {
   padding-top: 30px;
+}
+.t-pb {
+  padding-bottom: 25px;
 }
 
 /*
@@ -248,12 +391,72 @@ Bootstrap changes
 *********/
 
 .nav-link {
-  color: #000;
+  color: #fff;
+}
+
+.nav-color {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .nav-item {
-
+  vertical-align: middle;
 }
+
+#navbar-button {
+  margin-top: 20px;
+  margin-right: 30px;
+  border: 3px solid white;
+  z-index: 1000;
+}
+
+
+#navbar-button:hover {
+  background-color: #fff;
+}
+
+  #navbar-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#navbarSupportedContent {
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+
+
+
+/*********
+
+POWER
+
+
+*********/
+
+.sideNav {
+  font-size: 17px;
+}
+
+#green-bold {
+  color: rgb(0, 116, 107);
+  font-size: 20;
+  font-weight: bold;
+}
+
+.unactiveSNav {
+  color: rgb(26, 26, 26);
+  color: rgba(26, 26, 26, 0.4);
+}
+.unactiveSNav:hover {
+  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.activeSNav {
+  color: rgb(0, 0, 0);
+}
+
 
 
 /*
@@ -273,6 +476,19 @@ MEDIA QUERIES
 }
 
 
+@media screen and (max-width: 900px) {
+
+  .t-pb {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    p, h1, h2, h3, h4, h5, h6 {
+    font-size: 95%;
+  }
+}
+
 @media screen and (max-width: 650px) {
   p, h1, h2, h3, h4, h5, h6 {
     font-size: 90%;
@@ -281,6 +497,9 @@ MEDIA QUERIES
 
   .t-pt {
     padding-top: 20px;
+  }
+  .t-pb {
+    padding-bottom: 0px;
   }
 }
 @media screen and (max-width: 500px) {

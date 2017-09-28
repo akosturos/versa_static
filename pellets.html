@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Versa</title>
+      <title>Sorghum for pellets –– Versa</title>
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta charset="utf-8">
       <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -12,57 +12,89 @@
       <link rel="stylesheet" href="stylesheets/bootstrap.css">
       <link rel="stylesheet" href="stylesheets/template.css">
       <link rel="stylesheet" href="stylesheets/custom.css">
+      <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
-      <script src="//use.edgefonts.net/actor;source-sans-pro;istok-web.js"></script>
+      <script src="https://use.edgefonts.net/actor;source-sans-pro;istok-web.js"></script>
+      <script src="https://use.edgefonts.net/montserrat;open-sans.js"></script>
       <script src="scripts/jquery-3.2.1.min.js"></script>
       <script src="scripts/bootstrap.min.js"></script>
       <script src="scripts/custom.js"></script>
    </head>
    <body>
-      <header class="teambanner-div" id="teambanner-div">
-         <nav class="navbar navbar-toggleable-md navbar-inverse">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
+      <header class="header">
+         <nav class="navbar navbar-toggleable-md navbar-inverse" id="nav">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbar-button">
+               <span id="navbar-icon" class="navbar-toggler-icon"></span>
             </button>
             <a id="nav-logo" class="navbar-brand" href="/"> <img src="images/logo-white.png" id= 'main-logo'></a>
-            <div class="collapse navbar-collapse navbar-inverse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav ml-auto" id="ul-rmargin">
-                  <li class="nav-item nav-color"><a href="/" class='nav-link'>home</a></li>
-                  <li class="nav-item nav-color"><a href="#technology" class='nav-link'>what we do</a></li>
-                  <li class="nav-item nav-color"><a  href="/projects" class='nav-link'>about us</a></li>
-                  <li class="nav-item nav-color"><a href="/team" class= 'nav-link'>team</a></li>
-                  <li class="nav-item nav-color"><a href="/contact" class='nav-link'>contact</a></li>
+                  <li class="nav-item nav-color">
+                     <a href="/" class="nav-link no-box" id="li-header">home</a>
+                  </li>
+                  <div>
+                     <div>
+                        <li class="nav-item nav-color">
+                           <a class="nav-link no-box" id="li-header-foldable">+ what we do</a>
+                        </li>
+                     </div>
+                     <div class="subnav pt-15 pb-20">
+                        <div class="subnav-adiv">
+                           <a href="/power">Power</a>
+                        </div>
+                        <div class="subnav-adiv">
+                           <a href="/ethanol">Ethanol</a>
+                        </div>
+                        <div class="subnav-adiv">
+                           <a href="/pellets">Pellets</a>
+                        </div>
+                        <div class="subnav-adiv">
+                           <a href="/grain">Grain</a>
+                        </div>
+                     </div>
+                  </div>
+                  <li class="nav-item nav-color">
+                     <a  href="/projects" class="nav-link no-box" id="li-header">about us</a>
+                  </li>
+                  <li class="nav-item nav-color">
+                     <a href="/team" class="nav-link no-box" id="li-header">team</a>
+                  </li>
+                  <div class="contact-box-div">
+                     <li class="nav-item nav-color">
+                        <a href="/contact" class="nav-link contact-box" id="li-header-cb">contact</a>
+                     </li>
+                  </div>
                </ul>
             </div>
          </nav>
-         <div id="appear-nav">
-            <ul class="appear-nav-ul">
-               <li class="appear-nav-li appear-nav-left"><a  id="appear-home" href="/">home</a></li>
-               <li class="appear-nav-li appear-nav-left"><a id="appear-tech" href="/#technology">tech</a></li>
-               <li class="appear-nav-li pl-0px pr-0px"><a href="/"><img src="images/logo.png" id="appear-logo"></a></li>
-               <li class="appear-nav-li appear-nav-right"><a href="/projects">projects</a></li>
-               <li class="appear-nav-li appear-nav-left"><a href="/team">team</a></li>
-
-               <li class="appear-nav-li appear-nav-right"><a href="/contact">contact<a></li>
-            </ul>
-         </div>
       </header>
-      <div class="container">
+      <div class="team-header-div">
+         <div id="color-overlay"></div>
+         <img src="images/banners/pellets-1200-344.jpg" class="team-header-img">
+      </div>
+      <div id="appear-nav">
+         <ul class="appear-nav-ul">
+            <li class="appear-nav-li appear-nav-left"><a  id="appear-home" href="/">home</a></li>
+            <li class="appear-nav-li appear-nav-left"><a id="appear-tech" href="/#technology">tech</a></li>
+            <li class="appear-nav-li pl-0px pr-0px"><a href="/"><img src="images/logo.png" id="appear-logo"></a></li>
+            <li class="appear-nav-li appear-nav-right"><a href="/projects">projects</a></li>
+            <li class="appear-nav-li appear-nav-left"><a href="/team">team</a></li>
+
+            <li class="appear-nav-li appear-nav-right"><a href="/contact">contact<a></li>
+         </ul>
+      </div>
+      <div class="container pt-70 pb-70">
          <div class="row">
-            <div class="col-0 sm-col-4">
-               <div class="row">
-                  <div class="col-sm-6">
-                     <h4>WHAT WE DO</h4>
-                     <h4>POWER</h4>
-                     <h4>ETHANOL</h4>
-                     <h4>PELLETS</h4>
-                     <h4>GRAIN</h4>
-                  </div>
-               </div>
+            <div class="col-0 col-sm-3 pt-50">
+               <h4 id="green-bold" class="sideNav">WHAT WE DO</h4>
+               <h4 class="sideNav activeSNav">POWER</h4>
+               <h4 class="sideNav unactiveSNav">ETHANOL</h4>
+               <h4 class="sideNav unactiveSNav">PELLETS</h4>
+               <h4 class="sideNav unactiveSNav">GRAIN</h4>
             </div>
-            <div class="col-8 sm-col-12">
-               <h2>Diversify your revenue streams</h2>
-               <p>Versa's sorghum has been used to produce high-quality pellets, meeting or surpassing available standards. Our pellet solution allows Versa to expand its customer base, and insure diversification against regional disruptions in the ethanol and power markets.</p>
+            <div class="col-12 col-sm-9 pt-30">
+               <h2 class="pt-40">Diversify your revenue streams</h2>
+               <p class="pt-40">Versa's sorghum has been used to produce high-quality pellets, meeting or surpassing available standards. Our pellet solution allows Versa to expand its customer base, and insure diversification against regional disruptions in the ethanol and power markets.</p>
                <p>There are large and steadily increasing markets for biomass pellets for commercial biomass power generation systems.  Pellets can be stored for longer periods of time, with a lower cost to store and transport than fresh biomass.  Pellets have high thermal efficiency and extremely low particulate emissions compared to non-pelletized biomass.</p>
                <p>Versa's pellet solution meets European and US quality standards and can be sold to these biomass markets.  In addition, sustainability is very important to Versa and its customers.  Having achieved the required quality standards, Versa is obtaining life-cycle sustainability certification for its pelletized sorghum.</p>
                <p>Versa's experienced engineering team in biomass combustion provides industrial integration advantage over its competitors.</p>
@@ -72,7 +104,7 @@
       </div>
       <footer class="div-97cp bgcolor-b pb-20">
          <div class="bgcolor-b">
-            <p class="ftr-txt pt-10 mboth-0"><i>Versa</i> Sorghum Development, LLC</p>
+            <p class="ftr-txt pt-10 mboth-0">Versa Sorghum Solutions, LP</p>
             <p class="ftr-txt-sm mboth-0">2017 &#169; All rights reserved.</p>
          </div>
       </footer>

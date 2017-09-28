@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Versa</title>
+      <title>Sorghum for ethanol –– Versa</title>
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta charset="utf-8">
       <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -12,67 +12,103 @@
       <link rel="stylesheet" href="stylesheets/bootstrap.css">
       <link rel="stylesheet" href="stylesheets/template.css">
       <link rel="stylesheet" href="stylesheets/custom.css">
+      <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
-      <script src="//use.edgefonts.net/actor;source-sans-pro;istok-web.js"></script>
+      <script src="https://use.edgefonts.net/actor;source-sans-pro;istok-web.js"></script>
+      <script src="https://use.edgefonts.net/montserrat;open-sans.js"></script>
       <script src="scripts/jquery-3.2.1.min.js"></script>
       <script src="scripts/bootstrap.min.js"></script>
       <script src="scripts/custom.js"></script>
    </head>
    <body>
-      <header class="teambanner-div" id="teambanner-div">
-         <nav class="navbar navbar-toggleable-md navbar-inverse">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
+      <header class="header">
+         <nav class="navbar navbar-toggleable-md navbar-inverse" id="nav">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbar-button">
+               <span id="navbar-icon" class="navbar-toggler-icon"></span>
             </button>
             <a id="nav-logo" class="navbar-brand" href="/"> <img src="images/logo-white.png" id= 'main-logo'></a>
-            <div class="collapse navbar-collapse navbar-inverse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav ml-auto" id="ul-rmargin">
-                  <li class="nav-item nav-color"><a href="/" class='nav-link'>home</a></li>
-                  <li class="nav-item nav-color"><a href="#technology" class='nav-link'>what we do</a></li>
-                  <li class="nav-item nav-color"><a  href="/projects" class='nav-link'>about us</a></li>
-                  <li class="nav-item nav-color"><a href="/team" class= 'nav-link'>team</a></li>
-                  <li class="nav-item nav-color"><a href="/contact" class='nav-link'>contact</a></li>
+                  <li class="nav-item nav-color">
+                     <a href="/" class="nav-link no-box" id="li-header">home</a>
+                  </li>
+                  <div>
+                     <div>
+                        <li class="nav-item nav-color">
+                           <a class="nav-link no-box" id="li-header-foldable">+ what we do</a>
+                        </li>
+                     </div>
+                     <div class="subnav pt-15 pb-20">
+                        <div class="subnav-adiv">
+                           <a href="/power">Power</a>
+                        </div>
+                        <div class="subnav-adiv">
+                           <a href="/ethanol">Ethanol</a>
+                        </div>
+                        <div class="subnav-adiv">
+                           <a href="/pellets">Pellets</a>
+                        </div>
+                        <div class="subnav-adiv">
+                           <a href="/grain">Grain</a>
+                        </div>
+                     </div>
+                  </div>
+                  <li class="nav-item nav-color">
+                     <a  href="/projects" class="nav-link no-box" id="li-header">about us</a>
+                  </li>
+                  <li class="nav-item nav-color">
+                     <a href="/team" class="nav-link no-box" id="li-header">team</a>
+                  </li>
+                  <div class="contact-box-div">
+                     <li class="nav-item nav-color">
+                        <a href="/contact" class="nav-link contact-box" id="li-header-cb">contact</a>
+                     </li>
+                  </div>
                </ul>
             </div>
          </nav>
-         <div id="appear-nav">
-            <ul class="appear-nav-ul">
-               <li class="appear-nav-li appear-nav-left"><a  id="appear-home" href="/">home</a></li>
-               <li class="appear-nav-li appear-nav-left"><a id="appear-tech" href="/#technology">tech</a></li>
-               <li class="appear-nav-li pl-0px pr-0px"><a href="/"><img src="images/logo.png" id="appear-logo"></a></li>
-               <li class="appear-nav-li appear-nav-right"><a href="/projects">projects</a></li>
-               <li class="appear-nav-li appear-nav-left"><a href="/team">team</a></li>
-
-               <li class="appear-nav-li appear-nav-right"><a href="/contact">contact<a></li>
-            </ul>
-         </div>
       </header>
-      <div class="container">
+      <div class="team-header-div">
+         <div id="color-overlay"></div>
+         <img src="images/banners/ethanol.jpg" class="team-header-img">
+      </div>
+      <div id="appear-nav">
+         <ul class="appear-nav-ul">
+            <li class="appear-nav-li appear-nav-left"><a  id="appear-home" href="/">home</a></li>
+            <li class="appear-nav-li appear-nav-left"><a id="appear-tech" href="/#technology">tech</a></li>
+            <li class="appear-nav-li pl-0px pr-0px"><a href="/"><img src="images/logo.png" id="appear-logo"></a></li>
+            <li class="appear-nav-li appear-nav-right"><a href="/projects">projects</a></li>
+            <li class="appear-nav-li appear-nav-left"><a href="/team">team</a></li>
+
+            <li class="appear-nav-li appear-nav-right"><a href="/contact">contact<a></li>
+         </ul>
+      </div>
+      <div class="container pt-70 pb-70">
          <div class="row">
-            <div class="col-0 sm-col-4">
-               <div class="row">
-                  <div class="col-sm-6">
-                     <h4>WHAT WE DO</h4>
-                     <h4>POWER</h4>
-                     <h4>ETHANOL</h4>
-                     <h4>PELLETS</h4>
-                     <h4>GRAIN</h4>
-                  </div>
-               </div>
+            <div class="col-0 col-sm-3 pt-50">
+               <h4 id="green-bold" class="sideNav">WHAT WE DO</h4>
+               <h4 class="sideNav activeSNav">POWER</h4>
+               <h4 class="sideNav unactiveSNav">ETHANOL</h4>
+               <h4 class="sideNav unactiveSNav">PELLETS</h4>
+               <h4 class="sideNav unactiveSNav">GRAIN</h4>
             </div>
-            <div class="col-8 sm-col-12">
-               <h2>Take the next step in ethanol production</h2>
-               <quote>“Versa’s sweet sorghum as a feedstock for ethanol production during the sugarcane off-season has technical viability inside the industry. — Fermentec, April 2015</quote>
-               <p>Versa's sweet sorghum solution enables ethanol producers to fully maximize their underutilized mill capacity by using inter-crop periods and fallow lands to grow sweet sorghum, extending crushing seasons more than 60 days each season.</p>
-               <p>Our sweet sorghum solution has been validated by Fermentec to produce ethanol with yields greater than 3000 liters/hectare and in some cases greater than 5000 liters/hectare, proving sweet sorghum a viable feedstock for ethanol production, utilizing idle capital infrastructure during the off-season.</p>
-               <p>Our experienced engineers can easily integrate Versa’s sorghum solutions into existing infrastructure, requiring zero to minimal additional capital expenditures that can dramatically increase a mill's production and profitability each year. Versa's solution can make the difference between a mill making a loss or making a profit.</p>
-               <p>Contact Versa if your ethanol facilities are underutilized.</p>
+            <div class="col-12 col-sm-9 pt-70 pb-20">
+               <h2 class="pb-50">Take the next step in ethanol production</h2>
+               <hr id="hr">
+               <p class="large-quote mt-80">&ldquo;</p>
+               <blockquote>“Versa’s sweet sorghum as a feedstock for ethanol production during the sugarcane off-season has technical viability inside the industry.</blockquote>
+               <figcaption class="pb-40"> — Fermentec, April 2015</figcaption>
+               <hr id="hr">
+               <p class="pt-20">Versa's sweet sorghum solution enables ethanol producers to fully maximize their underutilized mill capacity by using inter-crop periods and fallow lands to grow sweet sorghum, extending crushing seasons more than 60 days each season.</p>
+               <p class="pt-20">Our sweet sorghum solution has been validated by Fermentec to produce ethanol with yields greater than 3000 liters/hectare and in some cases greater than 5000 liters/hectare, proving sweet sorghum a viable feedstock for ethanol production, utilizing idle capital infrastructure during the off-season.</p>
+               <p class="pt-20">Our experienced engineers can easily integrate Versa’s sorghum solutions into existing infrastructure, requiring zero to minimal additional capital expenditures that can dramatically increase a mill's production and profitability each year. Versa's solution can make the difference between a mill making a loss or making a profit.</p>
+               <p class="pt-20">Contact Versa if your ethanol facilities are underutilized.</p>
             </div>
          </div>
       </div>
       <footer class="div-97cp bgcolor-b pb-20">
          <div class="bgcolor-b">
-            <p class="ftr-txt pt-10 mboth-0"><i>Versa</i> Sorghum Development, LLC</p>
+            <p class="ftr-txt pt-10 mboth-0">Versa Sorghum Solutions, LP</p>
             <p class="ftr-txt-sm mboth-0">2017 &#169; All rights reserved.</p>
          </div>
       </footer>
