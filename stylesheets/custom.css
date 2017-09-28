@@ -3,6 +3,9 @@ font-family: montserrat, sans-serif;
 font-family: open-sans, sans-serif;
  */
 
+.ctxt {
+  text-align: center;
+}
 
 .header-img {
   width: 100%;
@@ -19,7 +22,7 @@ font-family: open-sans, sans-serif;
 
 
 .subnav {
-  background-color: rgb(33, 33, 33);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   font-size: 18px;
   font-family: open-sans, sans-serif;
@@ -39,13 +42,23 @@ font-family: open-sans, sans-serif;
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-  visibility: hidden;
+  /*visibility: visible;*/
+  display: none;
 }
 
 .subnav-adiv {
-  color: rgb(255, 255, 255);
+  color: rgb(33, 33, 33);
   padding-top: 10px;
   padding-left: 20px;
+}
+
+.subnav-a {
+  color: rgb(33, 33, 33);
+  text-decoration: none;
+}
+.subnav-a:hover {
+  color: rgb(33, 33, 33);
+  font-weight: bold;
 }
 
 #sidecarNav {
@@ -306,6 +319,46 @@ Bootstrap Updates
   padding-bottom: 0px;
 }
 
+/***************
+
+HOME HOME HOME
+
+HOME HOME HOME
+
+***************/
+
+.home-header-img {
+  width: 100%;
+  height: 800px;
+}
+.home-header-div {
+  width: 100%;
+  height: 100%;
+}
+#color-overlay-home {
+  background-color: rgba(0, 0, 0, .3);
+  color: rgba(26, 26, 26, .7);
+  bottom: 0px;
+  display: block;
+  height: 800px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 99;
+}
+
+.wwd-folder:hover ~ .subnav {
+  /*visibility: visible;*/
+  display: block;
+}
+
+.subnav:hover {
+  /*visibility: visible;*/
+  display: block;
+}
+
 /*********
 TEAM TEAM TEAM TAM TAM TMATMASMTWAS
 */
@@ -414,16 +467,15 @@ Bootstrap changes
   background-color: #fff;
 }
 
-  #navbar-icon:hover {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
 #navbarSupportedContent {
   position: absolute;
   right: 0;
   top: 80px;
 }
 
+#navbar-button:hover #navbar-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 
 /*********
@@ -475,6 +527,13 @@ MEDIA QUERIES
   margin-left: 3%;
 }
 
+.team-txt {
+
+}
+
+.test1:hover .test2{
+  color: red;
+}
 
 @media screen and (max-width: 900px) {
 
@@ -484,13 +543,13 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 800px) {
-    p, h1, h2, h3, h4, h5, h6 {
+    .team-txt {
     font-size: 95%;
   }
 }
 
 @media screen and (max-width: 650px) {
-  p, h1, h2, h3, h4, h5, h6 {
+  .team-txt {
     font-size: 90%;
   }
 
@@ -503,7 +562,7 @@ MEDIA QUERIES
   }
 }
 @media screen and (max-width: 500px) {
-  p, h1, h2, h3, h4, h5, h6 {
+  .team-txt {
     font-size: 80%;
   }
 
