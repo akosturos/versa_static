@@ -21,7 +21,6 @@
       <script src="scripts/custom.js"></script>
    </head>
    <body>
-      <!-- <header class="teambanner-div" id="teambanner-div"> -->
       <header class="header">
          <nav class="navbar navbar-toggleable-md navbar-inverse" id="nav">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbar-button">
@@ -34,35 +33,35 @@
                      <a href="/" class="nav-link no-box" id="li-header">home</a>
                   </li>
                   <div>
-                     <div>
+                     <div class="wwd-folder">
                         <li class="nav-item nav-color">
-                           <a class="nav-link no-box" id="li-header-foldable">+ what we do</a>
+                           <a href='power' class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
                         </li>
                      </div>
-                     <div class="subnav pt-15 pb-20">
+                     <div class="subnav pt-7 pb-20">
                         <div class="subnav-adiv">
-                           <a>Power</a>
+                           <a class="subnav-a" href="power">Power</a>
                         </div>
                         <div class="subnav-adiv">
-                           <a>Ethanol</a>
+                           <a class="subnav-a" href="ethanol">Ethanol</a>
                         </div>
                         <div class="subnav-adiv">
-                           <a">Pellets</a>
+                           <a class="subnav-a" href="pellets">Pellets</a>
                         </div>
                         <div class="subnav-adiv">
-                           <a>Grain</a>
+                           <a class="subnav-a" href="grain">Grain</a>
                         </div>
                      </div>
                   </div>
                   <li class="nav-item nav-color">
-                     <a  href="/projects" class="nav-link no-box" id="li-header">about us</a>
+                     <a  href="aboutus" class="nav-link no-box" id="li-header">about us</a>
                   </li>
                   <li class="nav-item nav-color">
-                     <a href="/team" class="nav-link no-box" id="li-header">team</a>
+                     <a href="team" class="nav-link no-box" id="li-header">team</a>
                   </li>
                   <div class="contact-box-div">
                      <li class="nav-item nav-color">
-                        <a href="/contact" class="nav-link contact-box" id="li-header-cb">contact</a>
+                        <a href="contact" class="nav-link contact-box" id="li-header-cb">contact</a>
                      </li>
                   </div>
                </ul>

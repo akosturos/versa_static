@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Sorghum for pellets –– Versa</title>
+      <title>Sorghum for power –– Versa</title>
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta charset="utf-8">
       <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -33,35 +33,35 @@
                      <a href="/" class="nav-link no-box" id="li-header">home</a>
                   </li>
                   <div>
-                     <div>
+                     <div class="wwd-folder">
                         <li class="nav-item nav-color">
-                           <a class="nav-link no-box" id="li-header-foldable">+ what we do</a>
+                           <a href='power' class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
                         </li>
                      </div>
-                     <div class="subnav pt-15 pb-20">
+                     <div class="subnav pt-7 pb-20">
                         <div class="subnav-adiv">
-                           <a href="/power">Power</a>
+                           <a class="subnav-a" href="power">Power</a>
                         </div>
                         <div class="subnav-adiv">
-                           <a href="/ethanol">Ethanol</a>
+                           <a class="subnav-a" href="ethanol">Ethanol</a>
                         </div>
                         <div class="subnav-adiv">
-                           <a href="/pellets">Pellets</a>
+                           <a class="subnav-a" href="pellets">Pellets</a>
                         </div>
                         <div class="subnav-adiv">
-                           <a href="/grain">Grain</a>
+                           <a class="subnav-a" href="grain">Grain</a>
                         </div>
                      </div>
                   </div>
                   <li class="nav-item nav-color">
-                     <a  href="/projects" class="nav-link no-box" id="li-header">about us</a>
+                     <a  href="aboutus" class="nav-link no-box" id="li-header">about us</a>
                   </li>
                   <li class="nav-item nav-color">
-                     <a href="/team" class="nav-link no-box" id="li-header">team</a>
+                     <a href="team" class="nav-link no-box" id="li-header">team</a>
                   </li>
                   <div class="contact-box-div">
                      <li class="nav-item nav-color">
-                        <a href="/contact" class="nav-link contact-box" id="li-header-cb">contact</a>
+                        <a href="contact" class="nav-link contact-box" id="li-header-cb">contact</a>
                      </li>
                   </div>
                </ul>
@@ -70,7 +70,7 @@
       </header>
       <div class="team-header-div">
          <div id="color-overlay"></div>
-         <img src="images/banners/pellets-1200-344.jpg" class="team-header-img">
+         <img src="images/banners/power.jpg" class="team-header-img">
       </div>
       <div id="appear-nav">
          <ul class="appear-nav-ul">
@@ -92,13 +92,13 @@
                <h4 class="sideNav unactiveSNav">PELLETS</h4>
                <h4 class="sideNav unactiveSNav">GRAIN</h4>
             </div>
-            <div class="col-12 col-sm-9 pt-30">
-               <h2 class="pt-40">Diversify your revenue streams</h2>
-               <p class="pt-40">Versa's sorghum has been used to produce high-quality pellets, meeting or surpassing available standards. Our pellet solution allows Versa to expand its customer base, and insure diversification against regional disruptions in the ethanol and power markets.</p>
-               <p>There are large and steadily increasing markets for biomass pellets for commercial biomass power generation systems.  Pellets can be stored for longer periods of time, with a lower cost to store and transport than fresh biomass.  Pellets have high thermal efficiency and extremely low particulate emissions compared to non-pelletized biomass.</p>
-               <p>Versa's pellet solution meets European and US quality standards and can be sold to these biomass markets.  In addition, sustainability is very important to Versa and its customers.  Having achieved the required quality standards, Versa is obtaining life-cycle sustainability certification for its pelletized sorghum.</p>
-               <p>Versa's experienced engineering team in biomass combustion provides industrial integration advantage over its competitors.</p>
-               <p>Contact Versa to expand your product line and achieve global reach for your products.</p>
+            <div class="col-12 col-sm-9 pt-70">
+               <h2>Supercharge your power production</h2>
+               <p class="pt-40">Versa's cellulosic sorghum represents the most cost efficient, short-cycle biomass feedstock. The 120-150 day growing cycle of sorghum enables the greatest agility in the face of short-term demand needs.</p>
+               <p>Many facilities throughout Latin America are not connected to a national grid, and are forced to produce their own power by burning sugarcane bagasse and eucalyptus. Sugarcane bagasse is becoming less available due to pressures in the power market. Eucalyptus has a five to seven year growth period, making it unresponsive to the demand cycle. Versa’s sorghum solution overcomes these challenges, allowing producers the flexibility to scale up or down production from forecasting 12-month market conditions, while recapturing costs and increasing profits each year.</p>
+               <p>For facilities connected to the grid, Versa's high crop yields allow significant cost savings for energy production, allowing these facilities to control energy costs in times of intense upward pressure on energy demand and prices.</p>
+               <p>Our experienced engineers can easily integrate Versa’s sorghum solutions into existing infrastructure, requiring zero to minimal additional capital expenditures that can dramatically increase production and therefore profitability each year.</p>
+               <p>Contact Versa to increase your resilience to fluctuations in power availability.</p>
             </div>
          </div>
       </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Contact us –– Versa</title>
+      <title>Sorghum for pellets –– Versa</title>
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta charset="utf-8">
       <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -35,33 +35,33 @@
                   <div>
                      <div class="wwd-folder">
                         <li class="nav-item nav-color">
-                           <a class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
+                           <a href='power' class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
                         </li>
                      </div>
                      <div class="subnav pt-7 pb-20">
                         <div class="subnav-adiv">
-                           <a class="subnav-a" href="/power.html">Power</a>
+                           <a class="subnav-a" href="power">Power</a>
                         </div>
                         <div class="subnav-adiv">
-                           <a class="subnav-a" href="ethanol.html">Ethanol</a>
+                           <a class="subnav-a" href="ethanol">Ethanol</a>
                         </div>
                         <div class="subnav-adiv">
-                           <a class="subnav-a" href="/pellets.html">Pellets</a>
+                           <a class="subnav-a" href="pellets">Pellets</a>
                         </div>
                         <div class="subnav-adiv">
-                           <a class="subnav-a" href="/grain.html">Grain</a>
+                           <a class="subnav-a" href="grain">Grain</a>
                         </div>
                      </div>
                   </div>
                   <li class="nav-item nav-color">
-                     <a  href="/projects" class="nav-link no-box" id="li-header">about us</a>
+                     <a  href="aboutus" class="nav-link no-box" id="li-header">about us</a>
                   </li>
                   <li class="nav-item nav-color">
-                     <a href="/team" class="nav-link no-box" id="li-header">team</a>
+                     <a href="team" class="nav-link no-box" id="li-header">team</a>
                   </li>
                   <div class="contact-box-div">
                      <li class="nav-item nav-color">
-                        <a href="/contact" class="nav-link contact-box" id="li-header-cb">contact</a>
+                        <a href="contact" class="nav-link contact-box" id="li-header-cb">contact</a>
                      </li>
                   </div>
                </ul>
@@ -70,7 +70,7 @@
       </header>
       <div class="team-header-div">
          <div id="color-overlay"></div>
-         <img src="images/banners/contact-original.jpg" class="team-header-img">
+         <img src="images/banners/pellets-1200-344.jpg" class="team-header-img">
       </div>
       <div id="appear-nav">
          <ul class="appear-nav-ul">
@@ -83,74 +83,28 @@
             <li class="appear-nav-li appear-nav-right"><a href="/contact">contact<a></li>
          </ul>
       </div>
-      <div class="container pt-70 pb-50">
+      <div class="container pt-70 pb-70">
          <div class="row">
-            <div class="col-12">
-               <h2>Contact us</h2>
+            <div class="col-0 col-sm-3 pt-50">
+               <h4 id="green-bold" class="sideNav">WHAT WE DO</h4>
+               <h4 class="sideNav activeSNav">POWER</h4>
+               <h4 class="sideNav unactiveSNav">ETHANOL</h4>
+               <h4 class="sideNav unactiveSNav">PELLETS</h4>
+               <h4 class="sideNav unactiveSNav">GRAIN</h4>
             </div>
-         </div>
-         <div class="row pt-40">
-            <div class="col-12">
-               <h6 class="contact-label">Name <span class="required">*</span></h6>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-6">
-               <div class="row">
-                  <div class="col-12">
-                     <input id="input"></input>
-                  </div>
-                  <div class="col-12">
-                     <label>First name</label>
-                  </div>
-               </div>
-            </div>
-            <div class="col-6">
-               <div class="row">
-                  <div class="col-12">
-                     <input id="input"></input>
-                  </div>
-                  <div class="col-12">
-                     <label>Last name</label>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row pt-30">
-            <div class="col-6">
-               <div class="row">
-                  <div class="col-12">
-                     <h6 class="contact-label">Email <span class="required">*</span></h6>
-                     <input id="input"></input>
-                  </div>
-               </div>
-            </div>
-            <div class="col-6">
-               <div class="row">
-                  <div class="col-12">
-                     <h6 class="contact-label">Organization <span class="required">*</span></h6>
-                     <input id="input"></input>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row pt-30">
-            <div class="col-12">
-               <h6 class="contact-label">Message <span class="required">*</span></h6>
-            </div>
-            <div class="col-12">
-               <textarea id="textarea"></textarea>
-            </div>
-         </div>
-         <div class="row pt-30">
-            <div class="col-8 col-sm-3 col-md-2">
-               <button id="contact-button">Submit</button>
+            <div class="col-12 col-sm-9 pt-30">
+               <h2 class="pt-40">Diversify your revenue streams</h2>
+               <p class="pt-40">Versa's sorghum has been used to produce high-quality pellets, meeting or surpassing available standards. Our pellet solution allows Versa to expand its customer base, and insure diversification against regional disruptions in the ethanol and power markets.</p>
+               <p>There are large and steadily increasing markets for biomass pellets for commercial biomass power generation systems.  Pellets can be stored for longer periods of time, with a lower cost to store and transport than fresh biomass.  Pellets have high thermal efficiency and extremely low particulate emissions compared to non-pelletized biomass.</p>
+               <p>Versa's pellet solution meets European and US quality standards and can be sold to these biomass markets.  In addition, sustainability is very important to Versa and its customers.  Having achieved the required quality standards, Versa is obtaining life-cycle sustainability certification for its pelletized sorghum.</p>
+               <p>Versa's experienced engineering team in biomass combustion provides industrial integration advantage over its competitors.</p>
+               <p>Contact Versa to expand your product line and achieve global reach for your products.</p>
             </div>
          </div>
       </div>
-      <footer class="div-97cp bgcolor-b pb-35">
+      <footer class="div-97cp bgcolor-b pb-20">
          <div class="bgcolor-b">
-            <p class="ftr-txt pt-10 mboth-0 pt-30">Versa Sorghum Solutions, LP</p>
+            <p class="ftr-txt pt-10 mboth-0">Versa Sorghum Solutions, LP</p>
             <p class="ftr-txt-sm mboth-0">2017 &#169; All rights reserved.</p>
          </div>
       </footer>
