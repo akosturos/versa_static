@@ -425,6 +425,44 @@ TEAM TEAM TEAM TAM TAM TMATMASMTWAS
   padding-bottom: 25px;
 }
 
+
+.contact-below-versa {
+  color: rgba(26, 26, 26, .7);
+  display: block;
+  font-size: 18px;
+  line-height: 28.8px;
+  text-align: right;
+}
+
+.contact-below-text {
+  color: rgba(26, 26, 26, 0.9);
+  display: block;
+  font-family: 'Arial', 'Helvetica';
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.contact-below-url {
+  color: rgb(53, 153, 146);
+  cursor: auto;
+  font-family: 'open-sans';
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 28.8px;
+  text-align: right;
+}
+
+#contact-map {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 /*
 Footer
  */
