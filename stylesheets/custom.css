@@ -19,6 +19,8 @@ font-family: open-sans, sans-serif;
   word-wrap: break-word;
 }
 
+
+
 /*******
 BANNERS
 *******/
@@ -396,19 +398,27 @@ figcaption {
 /*
 Appear Nav
  */
-#appear-nav {
-  position: fixed;
-  display: none;
-  top: 0;
-  height: 50px;
-  background-color: #000;
-  width: 100%;
-  z-index: 90;
-}
 .appear-nav-li {
   font-size: 16px;
 }
-
+.li-versa {
+  font-variant-caps: small-caps;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 300;
+  list-style-type: none;
+  text-align: center;
+  color: white;
+  display: inline;
+  list-style-type: none;
+  font-size: 16px;
+  font-variant: small-caps;
+  font-weight: 300;
+  color: #fff;
+ }
+ .li-versa:hover {
+    color: rgb(176, 235, 0);
+    text-decoration: none;
+ }
 .appear-nav-left {
   padding-left: 0px;
   padding-right: 40px;
@@ -422,6 +432,7 @@ Appear Nav
 }
 #ul-rmargin {
   margin-right: 10px;
+
 }#appear-nav {
   position: fixed;
   display: none;
@@ -448,12 +459,9 @@ Appear Nav
   text-align: center;
 }
 #appear-logo {
-  height: 70%;
-  width: 70%;
+  height: 28px;
+  width: 25px;
 }
-
-
-
 
 
 
@@ -977,6 +985,10 @@ MEDIA QUERIES
     right: 150px;
     top: 48px;
   }
+  .appear-nav-li {
+  font-size: 16px;
+  }
+
   .about-header-img {
     background-image: url('../images/banners/aboutus/aboutus-992-344.jpg');
   }
@@ -1131,6 +1143,9 @@ MEDIA QUERIES
   .team-header-img {
     background-image: url('../images/banners/team/team-600-344.jpg');
   }
+  .appear-nav-li {
+  font-size: 14px;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -1140,7 +1155,9 @@ MEDIA QUERIES
   .t-pt {
     padding-top: 0px;
   }
-
+  .appear-nav-li {
+  font-size: 13px;
+  }
   .about-header-img {
     background-image: url('../images/banners/aboutus/aboutus-500-344.jpg');
   }
@@ -1174,6 +1191,9 @@ MEDIA QUERIES
   .t-pt {
     padding-top: 0px;
   }
+  .appear-nav-li {
+  font-size: 12px;
+}
 
   .about-header-img {
     background-image: url('../images/banners/aboutus/aboutus-400-344.jpg');
