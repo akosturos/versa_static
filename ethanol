@@ -35,7 +35,7 @@
                   <div>
                      <div class="wwd-folder">
                         <li class="nav-item nav-color">
-                           <a href='power' class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
+                           <a class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
                         </li>
                      </div>
                      <div class="subnav pt-7 pb-20">
@@ -68,9 +68,9 @@
             </div>
          </nav>
       </header>
-      <div class="team-header-div">
+      <div class="ethanol-header-div">
          <div id="color-overlay"></div>
-         <img src="images/banners/ethanol.jpg" class="team-header-img">
+         <div class="ethanol-header-img"></div>
       </div>
       <div id="appear-nav">
          <ul class="appear-nav-ul">
@@ -96,13 +96,13 @@
                <h2 class="pb-50">Take the next step in ethanol production</h2>
                <hr id="hr">
                <p class="large-quote mt-80">&ldquo;</p>
-               <blockquote>“Versa’s sweet sorghum as a feedstock for ethanol production during the sugarcane off-season has technical viability inside the industry.</blockquote>
+               <blockquote class="ww">“Versa’s sweet sorghum as a feedstock for ethanol production during the sugarcane off-season has technical viability inside the industry.</blockquote>
                <figcaption class="pb-40"> — Fermentec, April 2015</figcaption>
                <hr id="hr">
-               <p class="pt-20">Versa's sweet sorghum solution enables ethanol producers to fully maximize their underutilized mill capacity by using inter-crop periods and fallow lands to grow sweet sorghum, extending crushing seasons more than 60 days each season.</p>
-               <p class="pt-20">Our sweet sorghum solution has been validated by Fermentec to produce ethanol with yields greater than 3000 liters/hectare and in some cases greater than 5000 liters/hectare, proving sweet sorghum a viable feedstock for ethanol production, utilizing idle capital infrastructure during the off-season.</p>
-               <p class="pt-20">Our experienced engineers can easily integrate Versa’s sorghum solutions into existing infrastructure, requiring zero to minimal additional capital expenditures that can dramatically increase a mill's production and profitability each year. Versa's solution can make the difference between a mill making a loss or making a profit.</p>
-               <p class="pt-20">Contact Versa if your ethanol facilities are underutilized.</p>
+               <p class="pt-20 ww">Versa's sweet sorghum solution enables ethanol producers to fully maximize their underutilized mill capacity by using inter-crop periods and fallow lands to grow sweet sorghum, extending crushing seasons more than 60 days each season.</p>
+               <p class="pt-20 ww">Our sweet sorghum solution has been validated by Fermentec to produce ethanol with yields greater than 3000 liters/hectare and in some cases greater than 5000 liters/hectare, proving sweet sorghum a viable feedstock for ethanol production, utilizing idle capital infrastructure during the off-season.</p>
+               <p class="pt-20 ww">Our experienced engineers can easily integrate Versa’s sorghum solutions into existing infrastructure, requiring zero to minimal additional capital expenditures that can dramatically increase a mill's production and profitability each year. Versa's solution can make the difference between a mill making a loss or making a profit.</p>
+               <p class="pt-20 ww">Contact Versa if your ethanol facilities are underutilized.</p>
             </div>
          </div>
       </div>

@@ -35,7 +35,7 @@
                   <div>
                      <div class="wwd-folder">
                         <li class="nav-item nav-color">
-                           <a href='power' class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
+                           <a class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
                         </li>
                      </div>
                      <div class="subnav pt-7 pb-20">
@@ -68,9 +68,9 @@
             </div>
          </nav>
       </header>
-      <div class="team-header-div">
+      <div class="pellets-header-div">
          <div id="color-overlay"></div>
-         <img src="images/banners/pellets-1200-344.jpg" class="team-header-img">
+         <div class="pellets-header-img"></div>
       </div>
       <div id="appear-nav">
          <ul class="appear-nav-ul">
@@ -94,11 +94,11 @@
             </div>
             <div class="col-12 col-sm-9 pt-30">
                <h2 class="pt-40">Diversify your revenue streams</h2>
-               <p class="pt-40">Versa's sorghum has been used to produce high-quality pellets, meeting or surpassing available standards. Our pellet solution allows Versa to expand its customer base, and insure diversification against regional disruptions in the ethanol and power markets.</p>
-               <p>There are large and steadily increasing markets for biomass pellets for commercial biomass power generation systems.  Pellets can be stored for longer periods of time, with a lower cost to store and transport than fresh biomass.  Pellets have high thermal efficiency and extremely low particulate emissions compared to non-pelletized biomass.</p>
-               <p>Versa's pellet solution meets European and US quality standards and can be sold to these biomass markets.  In addition, sustainability is very important to Versa and its customers.  Having achieved the required quality standards, Versa is obtaining life-cycle sustainability certification for its pelletized sorghum.</p>
-               <p>Versa's experienced engineering team in biomass combustion provides industrial integration advantage over its competitors.</p>
-               <p>Contact Versa to expand your product line and achieve global reach for your products.</p>
+               <p class="pt-40 ww">Versa's sorghum has been used to produce high-quality pellets, meeting or surpassing available standards. Our pellet solution allows Versa to expand its customer base, and insure diversification against regional disruptions in the ethanol and power markets.</p>
+               <p class="ww">There are large and steadily increasing markets for biomass pellets for commercial biomass power generation systems.  Pellets can be stored for longer periods of time, with a lower cost to store and transport than fresh biomass.  Pellets have high thermal efficiency and extremely low particulate emissions compared to non-pelletized biomass.</p>
+               <p class="ww">Versa's pellet solution meets European and US quality standards and can be sold to these biomass markets.  In addition, sustainability is very important to Versa and its customers.  Having achieved the required quality standards, Versa is obtaining life-cycle sustainability certification for its pelletized sorghum.</p>
+               <p class="ww">Versa's experienced engineering team in biomass combustion provides industrial integration advantage over its competitors.</p>
+               <p class="ww">Contact Versa to expand your product line and achieve global reach for your products.</p>
             </div>
          </div>
       </div>

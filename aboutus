@@ -35,7 +35,7 @@
                   <div>
                      <div class="wwd-folder">
                         <li class="nav-item nav-color">
-                           <a href='power' class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
+                           <a class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
                         </li>
                      </div>
                      <div class="subnav pt-7 pb-20">
@@ -68,9 +68,9 @@
             </div>
          </nav>
       </header>
-      <div class="team-header-div">
+      <div class="pages-header-div">
          <div id="color-overlay"></div>
-         <img src="images/banners/aboutus.jpg" class="team-header-img">
+         <div id="about-img" class="about-header-img"></div>
       </div>
       <div id="appear-nav">
          <ul class="appear-nav-ul">
@@ -91,27 +91,27 @@
          </div>
          <div class="row pt-20">
             <div class="col-12">
-               <p>Versa generates renewable, sustainable power and ethanol from sorghum. Versa’s value lies in the powerful short-term impact of its sorghum solution.</p>
+               <p class="ww">Versa generates renewable, sustainable power and ethanol from sorghum. Versa’s value lies in the powerful short-term impact of its sorghum solution.</p>
             </div>
          </div>
          <div class="row pt-20">
             <div class="col-12">
-               <p>Versa’s sorghum solution provides each producer a “feedstock-throttle”, the agility to scale up, down and/or switch production each growing season to adapt for near-term market conditions. Having this agility maximizes profitability while minimizing capital risk in greenfield, brownfield, ongoing and distressed operations. Versa's feedstock-throttle can make the difference between staying in business or not.</p>
+               <p class="ww">Versa’s sorghum solution provides each producer a “feedstock-throttle”, the agility to scale up, down and/or switch production each growing season to adapt for near-term market conditions. Having this agility maximizes profitability while minimizing capital risk in greenfield, brownfield, ongoing and distressed operations. Versa's feedstock-throttle can make the difference between staying in business or not.</p>
             </div>
          </div>
          <div class="row pt-20">
             <div class="col-12">
-               <p>Versa is a team of world-class agronomists and scientists who have, over three decades, successfully managed and harvested sorghum throughout the Americas. We have seamlessly introduced sorghum into existing mills and boilers for producing power and ethanol. Versa’s solution has been independently proven in commercial environments.</p>
+               <p class="ww">Versa is a team of world-class agronomists and scientists who have, over three decades, successfully managed and harvested sorghum throughout the Americas. We have seamlessly introduced sorghum into existing mills and boilers for producing power and ethanol. Versa’s solution has been independently proven in commercial environments.</p>
             </div>
          </div>
          <div class="row pt-20">
             <div class="col-12">
-               <p>Our team of scientists comes from leading positions at MIT, the Joint Bioenergy Institute (JBEI), Lawrence Berkeley National Laboratory, Imperial College London, Dow Center for Sustainable Engineering Innovation and Sandia National Laboratories, among others.</p>
+               <p class="ww">Our team of scientists comes from leading positions at MIT, the Joint Bioenergy Institute (JBEI), Lawrence Berkeley National Laboratory, Imperial College London, Dow Center for Sustainable Engineering Innovation and Sandia National Laboratories, among others.</p>
             </div>
          </div>
          <div class="row pt-20 pb-50">
             <div class="col-12">
-               <p>We are a US-based company operating in the Americas.</p>
+               <p class="ww">We are a US-based company operating in the Americas.</p>
             </div>
          </div>
          <div class="row pt-20">
@@ -126,22 +126,22 @@
          </div>
          <div class="row pt-40">
             <div class="col-12">
-               <p><b>Intellectual property:</b> Versa has developed proprietary methods, controls and treatments to consistently produce economically viable sorghum yields while reconditioning the soil for subsequent crops.</p>
+               <p class="ww"><b>Intellectual property:</b> Versa has developed proprietary methods, controls and treatments to consistently produce economically viable sorghum yields while reconditioning the soil for subsequent crops.</p>
             </div>
          </div>
          <div class="row pt-20">
             <div class="col-12">
-               <p><b>Environmental sustainability:</b> Versa has successfully developed a protocol of organic biological controls, causing significantly less harm to the environment, flora and fauna.</p>
+               <p class="ww"><b>Environmental sustainability:</b> Versa has successfully developed a protocol of organic biological controls, causing significantly less harm to the environment, flora and fauna.</p>
             </div>
          </div>
          <div class="row pt-20">
             <div class="col-12">
-               <p><b>Validated technology:</b> Versa have received independent validations of its sorghum solution from EMBRAPA, ESALQ, and Fermentec.</p>
+               <p class="ww"><b>Validated technology:</b> Versa have received independent validations of its sorghum solution from EMBRAPA, ESALQ, and Fermentec.</p>
             </div>
          </div>
          <div class="row pt-20 pb-70">
             <div class="col-12">
-               <p><b>Resilient platform:</b> Versa's sorghum certifications were completed during one of the worst recorded droughts in South America, proving sorghum's resilience and drought tolerance.</p>
+               <p class="ww"><b>Resilient platform:</b> Versa's sorghum certifications were completed during one of the worst recorded droughts in South America, proving sorghum's resilience and drought tolerance.</p>
             </div>
          </div>
       </div>

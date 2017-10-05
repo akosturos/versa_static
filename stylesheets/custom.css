@@ -7,17 +7,102 @@ font-family: open-sans, sans-serif;
   text-align: center;
 }
 
-.header-img {
-  width: 100%;
-  height: 350px;
-}
-
 .header {
   height: 140px;
   position: absolute;
   width: 100%;
   z-index: 1000;
   vertical-align: middle;
+}
+
+.ww {
+  word-wrap: break-word;
+}
+
+/*******
+BANNERS
+*******/
+
+.home-header-img {
+  width: 100%;
+  height: 800px;
+  background-image: url('../images/banners/home/home-1296-800.jpg');
+}
+.home-header-div {
+  width: 100%;
+  height: 100%;
+}
+#color-overlay-home {
+  background-color: rgba(0, 0, 0, .3);
+  color: rgba(26, 26, 26, .7);
+  bottom: 0px;
+  display: block;
+  height: 800px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 99;
+}
+.about-header-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/banners/aboutus/aboutus-1280-344.jpg');
+}
+.contact-header-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/banners/contact/contact-1280-344.jpg');
+}
+.ethanol-header-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/banners/ethanol/ethanol-1280-344.jpg');
+}
+.ethanol-header-div {
+  width: 100%;
+  height: 344px;
+}
+.grain-header-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/banners/grain/grain-1280-344.jpg');
+}
+.grain-header-div {
+  width: 100%;
+  height: 344px;
+}
+.pages-header-div {
+  width: 100%;
+  height: 344px;
+}
+.pellets-header-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/banners/pellets/pellets-1280-344.jpg');
+}
+.pellets-header-div {
+  width: 100%;
+  height: 344px;
+}
+.power-header-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/banners/power/power-1280-344.jpg');
+}
+.power-header-div {
+  width: 100%;
+  height: 344px;
+}
+.team-header-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/banners/team/team-1280-344.jpg');
+}
+.team-header-div {
+  width: 100%;
+  height: 344px;
 }
 
 
@@ -268,6 +353,20 @@ figcaption {
 }
 
 
+/************************
+
+*************************/
+
+
+.ww {
+  word-wrap: break-word;
+}
+
+
+/************************
+
+*************************/
+
 /* HEADER */
 
 
@@ -323,7 +422,40 @@ Appear Nav
 }
 #ul-rmargin {
   margin-right: 10px;
+}#appear-nav {
+  position: fixed;
+  display: none;
+  top: 0;
+  height: 50px;
+  background-color: #000;
+  width: 100%;
+  z-index: 90;
 }
+.appear-nav-ul {
+  height: 30px;
+  padding-top: 12px;
+  color: #fff;
+  text-align: center;
+}
+#appear-logo {
+  height: 70%;
+  width: 70%;
+}
+.appear-nav-ul {
+  height: 30px;
+  padding-top: 12px;
+  color: #fff;
+  text-align: center;
+}
+#appear-logo {
+  height: 70%;
+  width: 70%;
+}
+
+
+
+
+
 
 /***
 Bootstrap Updates
@@ -343,27 +475,7 @@ HOME HOME HOME
 
 ***************/
 
-.home-header-img {
-  width: 100%;
-  height: 800px;
-}
-.home-header-div {
-  width: 100%;
-  height: 100%;
-}
-#color-overlay-home {
-  background-color: rgba(0, 0, 0, .3);
-  color: rgba(26, 26, 26, .7);
-  bottom: 0px;
-  display: block;
-  height: 800px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  z-index: 99;
-}
+
 
 
 /*********
@@ -377,6 +489,7 @@ TEAM TEAM TEAM TAM TAM TMATMASMTWAS
   width: 100%;
   height: 344px;
 }
+
 
 .contact-box-div {
   display: inline-block;
@@ -794,6 +907,60 @@ MEDIA QUERIES
 
 }
 
+@media screen and (max-width: 1200px) {
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-1200-344.jpg');
+  }
+  .contact-header-img {
+  background-image: url('../images/banners/contact/contact-1200-344.jpg');
+  }
+  .ethanol-header-img {
+    background-image: url('../images/banners/ethanol/ethanol-1200-344.jpg');
+  }
+  .grain-header-img {
+    background-image: url('../images/banners/grain/grain-1200-344.jpg');
+  }
+  .home-header-img {
+    background-image: url('../images/banners/home/home-1200-800.jpg');
+  }
+  .pellets-header-img {
+    background-image: url('../images/banners/pellets/pellets-1200-344.jpg');
+  }
+  .power-header-img {
+    background-image: url('../images/banners/power/power-1200-344.jpg');
+  }
+  .team-header-img {
+    background-image: url('../images/banners/team/team-1200-344.jpg');
+  }
+}
+
+@media screen and (max-width: 1100) {
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-1100-344.jpg');
+  }
+  .contact-header-img {
+  background-image: url('../images/banners/contact/contact-1100-344.jpg');
+  }
+  .ethanol-header-img {
+    background-image: url('../images/banners/ethanol/ethanol-1100-344.jpg');
+  }
+  .grain-header-img {
+    background-image: url('../images/banners/grain/grain-1100-344.jpg');
+  }
+  .home-header-img {
+    background-image: url('../images/banners/home/home-1100-800.jpg');
+  }
+  .pellets-header-img {
+    background-image: url('../images/banners/pellets/pellets-1100-344.jpg');
+  }
+  .power-header-img {
+    background-image: url('../images/banners/power/power-1100-344.jpg');
+  }
+  .team-header-img {
+    background-image: url('../images/banners/team/team-1100-344.jpg');
+  }
+}
+
 
 @media screen and (max-width: 992px) {
   #li-header-cb {
@@ -810,6 +977,30 @@ MEDIA QUERIES
     right: 150px;
     top: 48px;
   }
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-992-344.jpg');
+  }
+  .contact-header-img {
+  background-image: url('../images/banners/contact/contact-992-344.jpg');
+  }
+  .ethanol-header-img {
+    background-image: url('../images/banners/ethanol/ethanol-992-344.jpg');
+  }
+  .grain-header-img {
+    background-image: url('../images/banners/grain/grain-992-344.jpg');
+  }
+  .home-header-img {
+    background-image: url('../images/banners/home/home-992-800.jpg');
+  }
+  .pellets-header-img {
+    background-image: url('../images/banners/pellets/pellets-992-344.jpg');
+  }
+  .power-header-img {
+    background-image: url('../images/banners/power/power-992-344.jpg');
+  }
+  .team-header-img {
+    background-image: url('../images/banners/team/team-992-344.jpg');
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -817,11 +1008,86 @@ MEDIA QUERIES
   .t-pb {
     padding-bottom: 10px;
   }
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-900-344.jpg');
+  }
+  .contact-header-img {
+  background-image: url('../images/banners/contact/contact-900-344.jpg');
+  }
+  .ethanol-header-img {
+    background-image: url('../images/banners/ethanol/ethanol-900-344.jpg');
+  }
+  .grain-header-img {
+    background-image: url('../images/banners/grain/grain-900-344.jpg');
+  }
+  .home-header-img {
+    background-image: url('../images/banners/home/home-900-800.jpg');
+  }
+  .pellets-header-img {
+    background-image: url('../images/banners/pellets/pellets-900-344.jpg');
+  }
+  .power-header-img {
+    background-image: url('../images/banners/power/power-900-344.jpg');
+  }
+  .team-header-img {
+    background-image: url('../images/banners/team/team-900-344.jpg');
+  }
 }
 
 @media screen and (max-width: 800px) {
     .team-txt {
     font-size: 95%;
+  }
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-800-344.jpg');
+  }
+  .contact-header-img {
+    background-image: url('../images/banners/contact/contact-800-344.jpg');
+  }
+  .ethanol-header-img {
+    background-image: url('../images/banners/ethanol/ethanol-800-344.jpg');
+  }
+  .grain-header-img {
+    background-image: url('../images/banners/grain/grain-800-344.jpg');
+  }
+  .home-header-img {
+    background-image: url('../images/banners/home/home-800-800.jpg');
+  }
+  .pellets-header-img {
+    background-image: url('../images/banners/pellets/pellets-800-344.jpg');
+  }
+  .power-header-img {
+    background-image: url('../images/banners/power/power-800-344.jpg');
+  }
+  .team-header-img {
+    background-image: url('../images/banners/team/team-800-344.jpg');
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-700-344.jpg');
+  }
+  .contact-header-img {
+    background-image: url('../images/banners/contact/contact-700-344.jpg');
+  }
+  .ethanol-header-img {
+    background-image: url('../images/banners/ethanol/ethanol-700-344.jpg');
+  }
+  .grain-header-img {
+    background-image: url('../images/banners/grain/grain-700-344.jpg');
+  }
+  .home-header-img {
+    background-image: url('../images/banners/home/home-700-800.jpg');
+  }
+  .pellets-header-img {
+    background-image: url('../images/banners/pellets/pellets-700-344.jpg');
+  }
+  .power-header-img {
+    background-image: url('../images/banners/power/power-700-344.jpg');
+  }
+  .team-header-img {
+    background-image: url('../images/banners/team/team-700-344.jpg');
   }
 }
 
@@ -829,28 +1095,111 @@ MEDIA QUERIES
   .team-txt {
     font-size: 90%;
   }
-
-
   .t-pt {
     padding-top: 20px;
   }
   .t-pb {
     padding-bottom: 0px;
   }
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-650-344.jpg');
+  }
 }
+
+@media screen and (max-width: 600px) {
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-600-344.jpg');
+  }
+  .contact-header-img {
+  background-image: url('../images/banners/contact/contact-600-344.jpg');
+  }
+  .ethanol-header-img {
+    background-image: url('../images/banners/ethanol/ethanol-600-344.jpg');
+  }
+  .grain-header-img {
+    background-image: url('../images/banners/grain/grain-600-344.jpg');
+  }
+  .home-header-img {
+    background-image: url('../images/banners/home/home-600-800.jpg');
+  }
+  .pellets-header-img {
+    background-image: url('../images/banners/pellets/pellets-600-344.jpg');
+  }
+  .power-header-img {
+    background-image: url('../images/banners/power/power-600-344.jpg');
+  }
+  .team-header-img {
+    background-image: url('../images/banners/team/team-600-344.jpg');
+  }
+}
+
 @media screen and (max-width: 500px) {
   .team-txt {
     font-size: 80%;
   }
-
-
-
   .t-pt {
     padding-top: 0px;
   }
+
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-500-344.jpg');
+  }
+  .contact-header-img {
+    background-image: url('../images/banners/contact/contact-500-344.jpg');
+  }
+  .ethanol-header-img {
+    background-image: url('../images/banners/ethanol/ethanol-500-344.jpg');
+  }
+  .grain-header-img {
+    background-image: url('../images/banners/grain/grain-500-344.jpg');
+  }
+  .home-header-img {
+    background-image: url('../images/banners/home/home-500-800.jpg');
+  }
+  .pellets-header-img {
+    background-image: url('../images/banners/pellets/pellets-500-344.jpg');
+  }
+  .power-header-img {
+    background-image: url('../images/banners/power/power-500-344.jpg');
+  }
+  .team-header-img {
+    background-image: url('../images/banners/team/team-500-344.jpg');
+  }
 }
 
+@media screen and (max-width: 400px) {
+  .team-txt {
+    font-size: 80%;
+  }
+  .t-pt {
+    padding-top: 0px;
+  }
 
+  .about-header-img {
+    background-image: url('../images/banners/aboutus/aboutus-400-344.jpg');
+  }
+  .contact-header-img {
+    background-image: url('../images/banners/contact/contact-400-344.jpg');
+  }
+  .ethanol-header-img {
+    background-image: url('../images/banners/ethanol/ethanol-400-344.jpg');
+  }
+  .grain-header-img {
+    background-image: url('../images/banners/grain/grain-400-344.jpg');
+  }
+  .home-header-img {
+    background-image: url('../images/banners/home/home-400-800.jpg');
+  }
+  .pellets-header-img {
+    background-image: url('../images/banners/pellets/pellets-400-344.jpg');
+  }
+  .power-header-img {
+    background-image: url('../images/banners/power/power-400-344.jpg');
+  }
+  .team-header-img {
+    background-image: url('../images/banners/team/team-400-344.jpg');
+  }
+}
 
 
 

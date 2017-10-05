@@ -35,7 +35,7 @@
                   <div>
                      <div class="wwd-folder">
                         <li class="nav-item nav-color">
-                           <a href='power' class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
+                           <a class="nav-link no-box" id="li-header-foldable"><span>+</span> what we do</a>
                         </li>
                      </div>
                      <div class="subnav pt-7 pb-20">
@@ -68,9 +68,9 @@
             </div>
          </nav>
       </header>
-      <div class="team-header-div">
+      <div class="power-header-div">
          <div id="color-overlay"></div>
-         <img src="images/banners/power.jpg" class="team-header-img">
+         <div class="power-header-img"></div>
       </div>
       <div id="appear-nav">
          <ul class="appear-nav-ul">
@@ -93,11 +93,11 @@
                <h4 class="sideNav unactiveSNav">GRAIN</h4>
             </div>
             <div class="col-12 col-sm-9 pt-70">
-               <h2>Supercharge your power production</h2>
-               <p class="pt-40">Versa's cellulosic sorghum represents the most cost efficient, short-cycle biomass feedstock. The 120-150 day growing cycle of sorghum enables the greatest agility in the face of short-term demand needs.</p>
-               <p>Many facilities throughout Latin America are not connected to a national grid, and are forced to produce their own power by burning sugarcane bagasse and eucalyptus. Sugarcane bagasse is becoming less available due to pressures in the power market. Eucalyptus has a five to seven year growth period, making it unresponsive to the demand cycle. Versa’s sorghum solution overcomes these challenges, allowing producers the flexibility to scale up or down production from forecasting 12-month market conditions, while recapturing costs and increasing profits each year.</p>
-               <p>For facilities connected to the grid, Versa's high crop yields allow significant cost savings for energy production, allowing these facilities to control energy costs in times of intense upward pressure on energy demand and prices.</p>
-               <p>Our experienced engineers can easily integrate Versa’s sorghum solutions into existing infrastructure, requiring zero to minimal additional capital expenditures that can dramatically increase production and therefore profitability each year.</p>
+               <h2 class="ww">Supercharge your power production</h2>
+               <p class="pt-40 ww">Versa's cellulosic sorghum represents the most cost efficient, short-cycle biomass feedstock. The 120-150 day growing cycle of sorghum enables the greatest agility in the face of short-term demand needs.</p>
+               <p class="ww">Many facilities throughout Latin America are not connected to a national grid, and are forced to produce their own power by burning sugarcane bagasse and eucalyptus. Sugarcane bagasse is becoming less available due to pressures in the power market. Eucalyptus has a five to seven year growth period, making it unresponsive to the demand cycle. Versa’s sorghum solution overcomes these challenges, allowing producers the flexibility to scale up or down production from forecasting 12-month market conditions, while recapturing costs and increasing profits each year.</p>
+               <p class="ww">For facilities connected to the grid, Versa's high crop yields allow significant cost savings for energy production, allowing these facilities to control energy costs in times of intense upward pressure on energy demand and prices.</p>
+               <p class="ww">Our experienced engineers can easily integrate Versa’s sorghum solutions into existing infrastructure, requiring zero to minimal additional capital expenditures that can dramatically increase production and therefore profitability each year.</p>
                <p>Contact Versa to increase your resilience to fluctuations in power availability.</p>
             </div>
          </div>
