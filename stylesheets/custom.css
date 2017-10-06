@@ -894,6 +894,9 @@ label {
   background-color: rgba(26, 26, 26, .7);
 }
 
+#active-page-color {
+  color: #b0eb00;
+}
 
 /*
 
@@ -1220,22 +1223,5 @@ MEDIA QUERIES
     background-image: url('../images/banners/team/team-400-344.jpg');
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
