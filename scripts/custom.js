@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-
-
    $(window).on('scroll', function () {
       if ($(this).scrollTop() > 500) {
          $('#appear-nav').fadeIn(200);
@@ -9,7 +7,5 @@ $(document).ready(function(){
          $('#appear-nav').fadeOut(40);
       }
    });
-
-
 
 });

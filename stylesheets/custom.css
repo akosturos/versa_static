@@ -19,8 +19,6 @@ font-family: open-sans, sans-serif;
   word-wrap: break-word;
 }
 
-
-
 /*******
 BANNERS
 *******/
@@ -433,7 +431,8 @@ Appear Nav
 #ul-rmargin {
   margin-right: 10px;
 
-}#appear-nav {
+}
+#appear-nav {
   position: fixed;
   display: none;
   top: 0;

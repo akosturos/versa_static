@@ -79,7 +79,7 @@
             <li class="appear-nav-li appear-nav-left li-versa"><a class="li-versa" id="active-page-color" href="/power">what we do</a></li>
             <li class="appear-nav-li li-versa pl-0px pr-0px"><a href="/" class="li-versa"><img src="images/small-logo.png" id="appear-logo"></a></li>
             <li class="appear-nav-li appear-nav-right li-versa"><a href="/team" class="li-versa">team</a></li>
-            <li class="appear-nav-li appear-nav-right li-versa"><a href="/contact" class="li-versa">contact<a></li>
+            <li class="appear-nav-li appear-nav-right li-versa"><a href="/contact" class="li-versa">contact</a></li>
          </ul>
       </div>
       <div class="container pt-70 pb-70">
